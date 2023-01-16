@@ -11,13 +11,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <!--Body section-->
 <body class="body-section">
       <!--Header section-->
         <header class="page-header">
-        
+            <div class="container page-header-container">
             <nav class="page-nav">
              <a class="logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
                 <ul class="menu list">
@@ -33,7 +34,7 @@
                 </ul>
             </nav>
             <address class="address-page">
-                <ul class="contact-link list">
+                <ul class="contact-menu list">
                     <li>
                         <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
@@ -42,9 +43,13 @@
                     </li>
                 </ul>
             </address>
+            </div>
         </header>
+    
         <main>
  <!--Filter Button-->
+ <section>
+ <div class="container"> 
  <h1 hidden>Menu</h1>
  <ul class="filter-btn-list list">
     <li><button class="filter-btn" type="button">All</button></li>
@@ -53,7 +58,11 @@
     <li><button class="filter-btn" type="button">Design</button></li>
     <li><button class="filter-btn" type="button">Marketing</button></li>
  </ul>
+</div>
+</section>
 <!--Portfolio section-->
+<section>
+<div class="container">
 <ul class="portfolio-list list">
     <li class="portfolio-item">
         <a class="project-card link" href="">
@@ -119,13 +128,18 @@
         </a>
     </li>
 </ul> 
+</div>
+</section>
 </main>
 
         <!--Footer section-->
         <footer class="section-footer">
+            <div class="container">
             <a class="logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.</p>
+        </div>
     </footer>
+    
 </body>
 </html>
