@@ -236,6 +236,8 @@ img{
 .card-text-member{
         text-align: center;
         background-color: var(--white-color);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+                border-radius: 0px 0px 4px 4px;
 }
 /*Footer section*/
 .section-footer{
@@ -281,12 +283,15 @@ img{
 }
 .filter-btn{
         cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 24px;
 }
 .filter-btn-list{
         display: flex;
         justify-content: center;
         column-gap: 24px;
-        margin-top: 96px;
+        
 }
 
 .portfolio-list{
@@ -296,6 +301,9 @@ img{
         row-gap: 48px;
         flex-basis: calc((100% - 2 * 24px) / 3);
         margin-top: 72px;
-        margin-bottom: 120px;
+        
+}
+.portfolio{
+        padding-bottom: 96px;
 }
      
